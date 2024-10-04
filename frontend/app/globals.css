@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+path {
+  transform-origin: 50% 0%;
+}
+
+.active{
+  font-weight: bold;
+  border-bottom: 2px solid blueviolet;
+  color: blueviolet !important;
+}
+
+.background--custom {
+  background-color: #FFFFFF;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+@keyframes path0 {
+  0% {
+    transform: rotate(-60deg);
+  }
+  100% {
+    transform: rotate(60deg);
+  }
+}
+@keyframes path1 {
+  0% {
+    transform: rotate(-60deg);
+  }
+  100% {
+    transform: rotate(60deg);
+  }
+}
+@keyframes path2 {
+  0% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+@keyframes path3 {
+  0% {
+    transform: rotate(60deg);
+  }
+  100% {
+    transform: rotate(-60deg);
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d9d9d9; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #757575; 
+}
+
+.margin-vt{
+  margin-top: 0.5rem !important; 
+  margin-bottom: 0.5rem !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-body{
+  background-image: linear-gradient(270deg, rgba(188, 236, 188, 0.297), rgba(163, 150, 150, 0.339), rgba(220, 20, 60, 0.062)), url("https://images3.alphacoders.com/182/thumb-1920-182109.jpg");
+    background-size: cover;
+    height: 100%;
+}
